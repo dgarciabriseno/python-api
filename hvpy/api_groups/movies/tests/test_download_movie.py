@@ -6,7 +6,7 @@ from hvpy.api_groups.movies.download_movie import downloadMovieInputParameters
 
 def test_raw_response():
     response = downloadMovie(
-        id="h2n6n",
+        id="2Bx6n",
         format="mp4",
     )
     assert isinstance(response, bytes)

@@ -6,7 +6,7 @@ from hvpy.api_groups.movies.get_movie_status import getMovieStatusInputParameter
 
 def test_json_response():
     response = getMovieStatus(
-        id="h2n6n",
+        id="2Bx6n",
         format="mp4",
     )
     assert response["url"] is not None
@@ -15,7 +15,7 @@ def test_json_response():
 
 def test_str_response():
     response = getMovieStatus(
-        id="h2n6n",
+        id="2Bx6n",
         format="mp4",
         callback="myCallback",
     )

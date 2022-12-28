@@ -440,7 +440,7 @@ def getMovieStatus(
     Examples
     --------
     >>> from hvpy import getMovieStatus
-    >>> getMovieStatus(id="h2n6n", format="mp4")
+    >>> getMovieStatus(id="2Bx6n", format="mp4")
     {'frameRate': ..., 'numFrames': ..., 'startDate': '...', 'status': ..., 'endDate': '...', 'width': ..., 'height': ..., 'title': '...', 'thumbnails': {'icon': '...', 'small': '...', 'medium': '...', 'large': '...', 'full': '...'}, 'url': '...', 'statusLabel': 'Completed'}
     """
     params = getMovieStatusInputParameters(
@@ -469,7 +469,7 @@ def downloadMovie(
     Examples
     --------
     >>> from hvpy import downloadMovie
-    >>> downloadMovie(id="h2n6n", format="mp4")
+    >>> downloadMovie(id="2Bx6n", format="mp4")
     b'...'
     """
     params = downloadMovieInputParameters(
